@@ -7,7 +7,6 @@ class OnePresenterController {
 
     OneService oneService
 
-    @Cacheable(value = "OnePresenterController")
     def renderPresenter() {
         render(view: '/mvp/one', model: [model: oneService.getData()])
     }
