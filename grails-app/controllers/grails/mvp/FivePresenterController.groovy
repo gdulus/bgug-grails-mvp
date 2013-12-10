@@ -1,7 +1,6 @@
 package grails.mvp
 
 import grails.FiveService
-import grails.plugin.cache.Cacheable
 
 class FivePresenterController {
 

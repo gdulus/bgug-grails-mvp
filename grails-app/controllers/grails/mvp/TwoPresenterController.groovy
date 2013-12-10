@@ -1,7 +1,6 @@
 package grails.mvp
 
 import grails.TwoService
-import grails.plugin.cache.Cacheable
 
 class TwoPresenterController {
 
